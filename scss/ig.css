@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.1rem;
+  border-bottom: 1px solid rgb(80, 79, 79);
+  background-color: black;
+}
+
+.navbar {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.4rem;
+}
+.navbar .mainname a {
+  color: white;
+  text-decoration: none;
+  font-family: "Satisfy", cursive;
+  font-weight: 500;
+}
+
+.home {
+  padding-top: 3rem;
+  margin-left: 0.6rem;
+}
+
+.box {
+  display: flex;
+}
+
+.profiles {
+  color: red;
+  text-align: center;
+  margin-right: 1rem;
+}
+.profiles .profiles-image img {
+  max-width: 120%;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid orange;
+}
+.profiles .profiles-names {
+  color: white;
+  font-size: 0.6rem;
+}
+
+.instafeed-primary {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.instamodle {
+  display: flex;
+}
+.instamodle .instamodle-image img {
+  max-width: 120%;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid orange;
+}
+.instamodle .instamodle-namess {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+.instamodle .bx-dots-horizontal-rounded {
+  float: right;
+}
+
+.instsecpage .instsecpage-image img {
+  max-width: 100%;
+}
+
+.iconsforinstfeed {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+.iconsforinstfeed ul {
+  display: flex;
+}
+.iconsforinstfeed ul li {
+  list-style: none;
+  padding-right: 0.5rem;
+}
+
+.fottericons {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(37, 36, 36);
+  padding: 0.3rem 1rem;
+}
+.fottericons .instaicons i:hover {
+  color: rgb(80, 79, 79);
+}/*# sourceMappingURL=ig.css.map */
